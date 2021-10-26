@@ -3,23 +3,25 @@
   border-radius: 10px;
   grid-column: 4 / 5;
   grid-row: 1 / 5;
-  margin-left: 20px;
   margin-right: 40px;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 .container-kira p {
   font-size: .75rem;
-  color: var(--neutralgray);
+  color: var(--bgjonathan);
 }
 
 .container-kira h1 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-bottom: 1.5rem;
 }
 
 .container-kira h2 {
-  font-size: 0.7rem;
-  color: var(--neutralgray);
+  font-size: 0.6rem;
+  color: var(--bgjonathan);
   padding: 0 1.5rem 0 0;
+  opacity: 0.7;
+  font-weight: 500;
+  line-height: .85rem;
 }
