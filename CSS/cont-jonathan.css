@@ -1,0 +1,23 @@
+.container-jonathan {
+  background: var(--bgjonathan);
+  border-radius: 10px;
+  grid-column: 3 / 4;
+  grid-row: 1 / 3;
+  margin-bottom: 15px;
+  padding: 1rem;
+}
+
+.container-jonathan p {
+  font-size: .75rem;
+  color: var(--neutralgray);
+}
+
+.container-jonathan h1 {
+  font-size: 1.2rem;
+}
+
+.container-jonathan h2 {
+  font-size: 0.8rem;
+  color: var(--neutralgray);
+  padding: 0 1.5rem 0 0;
+}

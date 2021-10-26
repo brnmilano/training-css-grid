@@ -1,0 +1,22 @@
+.container-jeanette {
+  background: var(--bgwhite);
+  border-radius: 10px;
+  grid-column: 1 / 2;
+  grid-row: 3 / 5;
+  padding: 1rem;
+}
+
+.container-jeanette p {
+  font-size: .75rem;
+  color: var(--neutralgray);
+}
+
+.container-jeanette h1 {
+  font-size: 1.4rem;
+}
+
+.container-jeanette h2 {
+  font-size: 0.8rem;
+  color: var(--neutralgray);
+  padding: 0 1.5rem 0 0;
+}

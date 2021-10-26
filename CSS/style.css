@@ -1,0 +1,62 @@
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+.app {
+  background: var(--neutralgrayish);
+  display: grid;  
+  grid-template-areas: 
+      "container-daniel"
+      "container-jonathan"
+      "container-jeanette"
+      "container-patrick"
+      "container-kira";
+  grid-template-columns: auto;
+  grid-auto-rows: auto auto auto auto auto; 
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: 100vh;
+  padding: 9rem 12rem;
+}
+
+.container-daniel {
+  background: var(--bgdaniel);
+  grid-area: container-daniel;
+}
+
+.container-jonathan {
+  background: var(--bgjonathan);
+  grid-area: container-jonathan;
+}
+
+.container-jeanette {
+  background: var(--bgwhite);
+  grid-area: container-jeanette;
+}
+
+.container-patrick {
+  background: var(--bgpatrick);
+  grid-area: container-patrick;
+}
+
+.container-kira {
+  background: var(--bgwhite);
+  grid-area: container-kira;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.img {
+  height: 40px;
+  border-radius: 40px;
+  margin-right: 10px;
+
+}

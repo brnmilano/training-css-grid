@@ -1,0 +1,21 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  font-weight: inherit;
+  font-family: inherit;
+  font-style: inherit;
+}
+
+:root {
+  --bgdaniel: hsl(263, 55%, 52%);
+  --bgjonathan: hsl(217, 19%, 35%);
+  --bgwhite: hsl(0, 0%, 100%);
+  --bgpatrick: hsl(219, 29%, 14%);
+
+  --neutralgray: hsl(0, 0%, 81%);
+  --neutralgrayish: hsl(210, 46%, 95%);
+}

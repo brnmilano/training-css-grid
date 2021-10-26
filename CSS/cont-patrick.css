@@ -1,0 +1,23 @@
+.container-patrick {
+  background: var(--bgpatrick);
+  border-radius: 10px;
+  grid-column: 2 / 4;
+  grid-row: 3 / 5;
+  margin-left: 20px;
+  padding: 1rem;
+}
+
+.container-patrick p {
+  font-size: .75rem;
+  color: var(--neutralgray);
+}
+
+.container-patrick h1 {
+  font-size: 1.4rem;
+}
+
+.container-patrick h2 {
+  font-size: 0.8rem;
+  color: var(--neutralgray);
+  padding: 0 1.5rem 0 0;
+}

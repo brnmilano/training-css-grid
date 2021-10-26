@@ -1,0 +1,27 @@
+.container-daniel {
+  background: var(--bgdaniel);
+  border-radius: 10px;
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  margin-bottom: 15px;
+  margin-right: 25px;
+  padding: 1rem;
+}
+
+.container-daniel p {
+  font-size: .75rem;
+  color: var(--neutralgray);
+}
+
+.container-daniel h1 {
+  font-size: 1.2rem;
+  margin-bottom: .8rem;
+  color: var(--bgwhite);
+}
+
+.container-daniel h2 {
+  font-size: 0.6rem;
+  color: var(--neutralgray);
+  padding: 0 1.5rem 0 0;
+  line-height: .9rem;
+}
