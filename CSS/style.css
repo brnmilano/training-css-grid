@@ -3,8 +3,12 @@ body {
 }
 
 .app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background: var(--neutralgrayish);
-  display: grid;  
+  /* display: grid;  
   grid-template-areas: 
       "container-daniel"
       "container-jonathan"
@@ -12,15 +16,19 @@ body {
       "container-patrick"
       "container-kira";
   grid-template-columns: auto;
-  grid-auto-rows: auto auto auto auto auto; 
+  grid-auto-rows: auto auto auto auto auto;  */
 }
 
 .main-container {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
-  height: 100vh;
-  padding: 9rem 12rem;
+  grid-template-columns: 1fr 1fr 1fr 1.2fr;
+  grid-template-rows: 1fr 1fr; 
+  height: 100%;
+  max-width: 1000px;
+  max-height: 500px;
+  margin: 0 auto;
+  row-gap: 13px;
+  column-gap: 20px;
 }
 
 .container-daniel {
@@ -63,4 +71,8 @@ body {
 #verified {
   color: var(--neutralgray);
   opacity: 0.7;
+}
+
+@media screen and (max-width: 320px) {
+  
 }

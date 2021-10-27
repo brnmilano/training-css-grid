@@ -2,9 +2,8 @@
   background: var(--bgwhite);
   border-radius: 10px;
   grid-column: 1 / 2;
-  grid-row: 3 / 5;
+  grid-row: 2;
   padding: 1rem 1.7rem;
-  margin-right: 25px;
 }
 
 .container-jeanette p {
@@ -22,8 +21,46 @@
 .container-jeanette h2 {
   font-size: 0.6rem;
   color: var(--bgjonathan);
-  padding: 0 1.5rem 0 0;
   line-height: 1rem;
   opacity: 0.7;
   font-weight: 500;
+}
+
+@media screen and (max-width: 1280px) {
+  .container-jeanette {
+    padding: 2rem;
+  }
+  .container-jeanette p {
+    font-size: 1rem;
+  }
+  .container-jeanette h1 {
+    font-size: 1.3rem;
+  }
+  .container-jeanette h2 {
+    font-size: .8rem;
+    line-height: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container-jeanette {
+    padding: 1rem;
+  }
+  .container-jeanette p {
+    font-size: .9rem;
+  }
+  .container-jeanette h1 {
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+  }
+  .container-jeanette h2 {
+    font-size: .7rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-jeanette {
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+  }
 }
