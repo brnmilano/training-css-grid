@@ -1,8 +1,7 @@
 .container-jeanette {
   background: var(--bgwhite);
   border-radius: 10px;
-  grid-column: 1 / 2;
-  grid-row: 2;
+  grid-area: Jeanette;
   padding: 1rem 1.7rem;
 }
 
@@ -55,12 +54,5 @@
   }
   .container-jeanette h2 {
     font-size: .7rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .container-jeanette {
-    grid-column: 1 / 3;
-    grid-row: 3 / 5;
   }
 }

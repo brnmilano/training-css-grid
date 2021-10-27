@@ -1,8 +1,7 @@
 .container-patrick {
   background: var(--bgpatrick);
   border-radius: 10px;
-  grid-column: 2 / 4;
-  grid-row: 2;
+  grid-area: Patrick;
   padding: 1rem 1.5rem;
 }
 
@@ -54,28 +53,5 @@
   }
   .container-patrick h2 {
     font-size: .7rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .container-patrick {
-    grid-column: 3 / 6;
-    grid-row: 3 / 5;
-    margin: 0;
-  }
-  .container-patrick {
-    font-size: .9rem;
-  }
-  .container-patrick p {
-    font-size: .9rem;
-  }
-  .container-patrick h1 {
-    font-size: 1rem;
-    margin: .7rem 0 .7rem 0;
-  }
-  .container-patrick h2 {
-    padding: 0;
-    font-size: .7rem;
-    line-height: .9rem;
   }
 }
