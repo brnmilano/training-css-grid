@@ -14,48 +14,15 @@
 }
 
 .container-daniel h1 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-bottom: .8rem;
   color: var(--bgwhite);
 }
 
 .container-daniel h2 {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: var(--neutralgray);
   line-height: .9rem;
   opacity: 0.7;
   font-weight: 500;
-}
-
-@media screen and (max-width: 1280px) {
-  .container-daniel {
-    padding: 2rem;
-  }
-  .container-daniel p {
-    font-size: 1rem;
-  }
-  .container-daniel h1 {
-    font-size: 1.3rem;
-  }
-  .container-daniel h2 {
-    font-size: .8rem;
-    line-height: 1rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container-daniel {
-    padding: 1rem;
-  }
-  .container-daniel p {
-    font-size: .9rem;
-  }
-  .container-daniel h1 {
-    font-size: 1.2rem;
-    margin: 1.5rem 0;
-  }
-  .container-daniel h2 {
-    font-size: .7rem;
-    line-height: 1rem;
-  }
 }

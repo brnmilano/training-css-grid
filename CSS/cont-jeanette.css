@@ -11,48 +11,16 @@
 }
 
 .container-jeanette h1 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: var(--bgjonathan);
   font-weight: 600;
   margin-bottom: .8rem;
 }
 
 .container-jeanette h2 {
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   color: var(--bgjonathan);
   line-height: 1rem;
   opacity: 0.7;
   font-weight: 500;
-}
-
-@media screen and (max-width: 1280px) {
-  .container-jeanette {
-    padding: 2rem;
-  }
-  .container-jeanette p {
-    font-size: 1rem;
-  }
-  .container-jeanette h1 {
-    font-size: 1.3rem;
-  }
-  .container-jeanette h2 {
-    font-size: .8rem;
-    line-height: 1rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container-jeanette {
-    padding: 1rem;
-  }
-  .container-jeanette p {
-    font-size: .9rem;
-  }
-  .container-jeanette h1 {
-    font-size: 1.2rem;
-    margin: 1.5rem 0;
-  }
-  .container-jeanette h2 {
-    font-size: .7rem;
-  }
-}
+} 
